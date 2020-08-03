@@ -1,1 +1,6 @@
-# webservice
+Una multinacional para la distribución de productos de aseo, requiere de un sistema el cual permita a su fuerza de venta hacer el registro de compradores, con caracterización internacional. El arquitecto del proyecto, seleccionó una fuente de caracterización internacional, con el fin de evitar inconsistencia en la información.
+Enlace de la especificación que se usará como data maestra para la caracterización:
+http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL
+Dentro del set de servicios disponibles, se encuentran los métodos, para listar países y capital por país, moneda por país, la bandera del país, código telefónico por país, información sobre el país seleccionado (nombre, capital, código, tipo de horario, moneda oficial e idioma oficial).
+Se le solicita a usted como parte del equipo de desarrollo hacer una prueba de concepto de este servicio, donde se visualice la lista de países disponibles y al seleccionar uno de ellos se muestre la información completa del mismo, el arquitecto de la solución también le plantea la necesidad de que el consumo se haga desde el lado server, con el fin de validar la disponibilidad del servicio y en caso de que no se encuentre disponible hacer uso de datos previamente almacenados en consultas anteriores por otros usuarios, manteniendo así siempre disponible la información para todos los clientes del sistema.
+Con el fin de validar la implementación es necesario implementar uno de los clientes, bien sea Android o WEB, para dicha validación.
